@@ -6,6 +6,7 @@
     "@types/mocha": "^10.0.0"
   },
   "scripts": {
-    "test": "mocha 'out/test/**/*.js'"
+    "test": "mocha 'out/test/**/*.js'",
+    "build": "tsc"
   }
 }
