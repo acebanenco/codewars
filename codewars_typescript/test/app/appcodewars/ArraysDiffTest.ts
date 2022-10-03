@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {arrayDiff} from '../../../src/app/codewars/solutions';
+import {arrayDiff} from '../../../src/app/codewars/ArraysDiff';
 
 describe('Basic Tests', () => {
     it('Basic test should work', () => {
