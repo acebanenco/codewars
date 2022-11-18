@@ -1,8 +1,8 @@
-export function reorderDigits(digits:number):number {
+export function reorderDigits(n:number):number {
     let digitCounts: number[] = new Array(10).fill(0);
-    while(digits > 0) {
-        digitCounts[digits%10]++;
-        digits = Math.floor(digits / 10);
+    while(n > 0) {
+        digitCounts[n%10]++;
+        n = Math.floor(n / 10);
     }
     let result: number = 0;
     let factor: number = 1;
@@ -15,7 +15,7 @@ export function reorderDigits(digits:number):number {
     }
     return result;
 
-    let str: string = digits.toString();
+    let str: string = n.toString();
     let chars: string[] = str.split("");
     chars.sort();
     chars.reverse();
