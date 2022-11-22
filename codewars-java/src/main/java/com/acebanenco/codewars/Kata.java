@@ -52,7 +52,7 @@ public class Kata {
             overflow = dc / factor;
         }
         if (overflow > 0) {
-            throw new AssertionError();
+            throw new ArithmeticException("integer overflow");
         }
         return result;
     }
