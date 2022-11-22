@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PickPeaksTest {
 
 
-    private static String[] msg = {
+    private static final String[] msg = {
             "should support empty input",
             "should support finding peaks",
             "should support finding peaks, but should ignore peaks on the edge of the array",
@@ -22,7 +22,7 @@ class PickPeaksTest {
                     "return the position of the first element of the plateau",
             "should support finding peaks, but should ignore peaks on the edge of the array"};
 
-    private static int[][] array = {
+    private static final int[][] array = {
             {},
             {1,2,3,6,4,1,2,3,2,1},
             {3,2,3,6,4,1,2,3,2,1,2,3},
@@ -30,7 +30,7 @@ class PickPeaksTest {
             {2,1,3,1,2,2,2,2,1},
             {2,1,3,1,2,2,2,2}};
 
-    private static int[][] posS  = {
+    private static final int[][] posS  = {
             {},
             {3,7},
             {3,7},
@@ -38,7 +38,7 @@ class PickPeaksTest {
             {2,4},
             {2},};
 
-    private static int[][] peaksS = {
+    private static final int[][] peaksS = {
             {},
             {6,3},
             {6,3},

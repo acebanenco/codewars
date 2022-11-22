@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 public class XbonacciTest {
     private Xbonacci variabonacci;
 
-    private double precision = 1e-10;
+    private final double precision = 1e-10;
 
     @BeforeEach
     public void setUp() {

@@ -16,6 +16,5 @@ public class TenMinWalkTest {
                 () -> assertFalse(isValid("nswenswenn".toCharArray())),
                 () -> assertFalse(isValid("nswenswen".toCharArray()))
         );
-        ;
     }
 }

@@ -30,5 +30,6 @@ public class TwoSumTest {
         int num1 = numbers[actual[0]];
         int num2 = numbers[actual[1]];
         assertEquals(target, num1 + num2, String.format("Numbers %d, %d at positions %d, %d do not add up to target", num1, num2, actual[0], actual[1]));
+        assertArrayEquals(expected, actual);
     }
 }
